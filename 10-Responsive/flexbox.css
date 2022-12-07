@@ -1,0 +1,28 @@
+.contenedor {
+    background-color: yellow;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    height: 5rem;
+
+    /* Eje principal utiliza */
+    justify-content: space-around;
+    /* ver las opciones: start/end/space-arround/space-between/space-evenly */
+
+    /* Eje secundario */
+    align-items: center;
+    /* ver opciones: baseline/center/strech/end */
+    /* flex-direction: column;*/
+
+    flex-wrap: wrap;
+    /* nowrap por defecto - mueve los elementos de acuerdo al tamaño de la pantalla */
+}
+
+.item {
+    background-color: salmon;
+    padding: 0.5rem;
+    width: 10rem;
+}
+
+/* https://codepen.io/enxaneta/full/adLPwv */
+/* ver para guiarse con las posiciones */

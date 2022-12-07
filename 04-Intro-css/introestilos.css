@@ -1,0 +1,56 @@
+/* Estilos para colores */
+
+.colores {
+  color: orangered;
+}
+
+.color-hexa {
+  color: #235789;
+}
+
+.color-rgb {
+  color: rgb(150, 20, 100);
+}
+
+.color-rgba {
+  color: rgba(10, 20, 15, 0.3);
+}
+
+/* Fondos */
+
+.fondo {
+  background-color: cadetblue;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qvjqC4bdOsNIYHYC9blrHwHaEo%26pid%3DApi&f=1&ipt=610e4a10bdf902f37d1a1bd1d4c67b6c34d89dde92fe2bd980413a52537c1c7f&ipo=images");
+  background-position: left center;
+}
+
+.fondo-interno {
+  background-image: url("fondo.jpeg");
+}
+
+/* Tamaños */
+
+.ancho {
+  background-color: aqua;
+  width: 100px;
+}
+
+.alto {
+  background-color: coral;
+  height: 200px;
+  width: 200;
+}
+
+.tarjeta {
+  width: 300px;
+  height: 120px;
+  border-style: solid;
+  border-color: rgb(150, 150, 150);
+  border-width: 1.5px;
+  /* border-top: none; */
+  padding: 10px 20px;  /* Se pueden poner varios valores, y varia la posicion- 
+  10px 10px(primer valor arriba y abajo, segundo valor izq y der */
+  /* si agregamos un tercer valor es el de abajo, y asi en el sentido del reloj */
+  margin: 10px 20px; /* es la separacion externa del elemento con respecto a los demas */
+}
+

@@ -1,0 +1,23 @@
+CSS
+Selectores
+
+Sirven para separar estilos ya definidos.
+
+se usa "#" o el "elemento" + "#"
+#
+se puede llamar por "id" o "class" que inicia con "." antes de la clase.
+
+Existe el selector universal: "*"
+
+Se utiliza usando "*" o "."
+
+Cuando tengo que seleccionar varias clases, que usen el mismo estilo podemos usar:
+
+.uno, .dos, .tres {
+   text-decoration: underline;
+}
+
+
+
+
+

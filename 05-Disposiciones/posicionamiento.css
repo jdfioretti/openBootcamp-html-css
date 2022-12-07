@@ -1,0 +1,48 @@
+h3 {
+  position: relative;
+  margin-top: 40px;
+}
+div {
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 5px;
+}
+
+.relative {
+  /* Se posiciona con relacion al original */
+  position: relative;
+  left: 80px;
+  margin-left: 10px;
+}
+
+.fixed {
+  /* Posicionamiento fijo. Se posiciona con relacion a la pantalla */
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: aquamarine;
+  z-index: 10;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 30px;
+  right: 0px;
+  background-color: yellowgreen;
+  z-index: 10;
+}
+
+.relative.contenedor {
+  width: 400px;
+  height: 800px;
+  background-color: blue;
+}
+
+/* Posicionamiento "pegajoso" - Al hacer scroll modifica su posicionamiento relativo->fixed */
+.sticky {
+  position: sticky;
+  background-color: red;
+  color: white;
+  top: 0px;
+  z-index: 2;
+}

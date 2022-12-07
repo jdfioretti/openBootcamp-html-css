@@ -1,0 +1,43 @@
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+
+p {
+    color: black;
+    font-size: 2rem;
+}
+
+/* @media all and (max-width: 576px) --> es igual que colocar el sgte codigo */
+/* @media screen and (max-width: 576px) {
+    h1 {
+        color: blue;
+    }
+} */
+
+@media (min-width: 576px) {
+    h1 {
+        color: green;
+    }
+}
+
+@media (min-width: 995px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* podemos usar 'and' para que se cumplan mas de una condicion */
+@media (orientation: landscape) and (min-height: 350px) {
+    p {
+        color: darkorange;
+    }
+}
+
+/* podemos concatenar mas de una condicion */
+@media (min-height: 300px),
+(min-height: 300px) {
+    p {
+        color: cyan;
+    }
+}

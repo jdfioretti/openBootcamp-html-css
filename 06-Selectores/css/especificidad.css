@@ -1,0 +1,33 @@
+#h1-id {
+  /* por especificidad predomina es mas que la clase*/
+  color: coral;
+}
+
+.h1-clase {
+  color: yellow; /* por especificidad predomina es mas que la etiqueta*/
+}
+
+h1 {
+  color: blue !important;
+}
+h1 {
+  color: green; /*a igualdad de condiciones el segundo sobrescribe*/
+}
+
+p {
+  color: red;
+}
+
+/*especificidad*/
+/*(0,0,0)*/
+/*(0,0,1)*/
+/*(0,1,0)*/
+/*(1,0,0)*/
+/*de menor a mayor jerarquia*/
+
+/*se pueden concatenar los id para aumentar la jerarquia: ej "h1#h1-id\ h1-otroid.h1-clase"*/
+
+/*los estilos que definimos en linea(html) son como el cuarto nivel, superior a los otros*/
+
+/* si quisieramos que uno prevalezca sobre todos, a pesar de su especificidad agregamos la 
+etiqueta "!important" --> EVITAR EL USO*/

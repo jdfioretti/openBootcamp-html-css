@@ -1,0 +1,30 @@
+.flex {
+  display: flex;
+  flex-direction: row; /* cambia el eje */
+  background-color: yellow;
+  height: 300px;
+  justify-content: space-around; /* distribuye el espacio entre los contenedores */
+  /* flex-wrap: wrap; */
+  align-items: center; /* alinea los contenedores. Varias posibilidades */
+}
+
+.contenido-1 {
+  background-color: white;
+  height: 200px;
+  width: 100px;
+  border: 1px solid blue;
+}
+.contenido-2 {
+  background-color: white;
+  height: 200px;
+  width: 100px;
+  border: 1px solid blue;
+}
+.contenido-3 {
+  background-color: white;
+  height: 200px;
+  width: 100px;
+  border: 1px solid blue;
+}
+
+/* ver: https://codepen.io/enxaneta/full/adLPwv */

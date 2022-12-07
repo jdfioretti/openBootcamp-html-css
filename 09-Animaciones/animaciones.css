@@ -1,0 +1,67 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    /* transition: all 1s; */
+    /* es muy customizable - ver herramientas de chrome al respecto, para editar la animacion
+    y copiar el codigo. Se puede hacer con delay tambien con ease-in 1s*/
+    animation: traslacion 4s ease-in-out infinite;
+}
+
+.padre:hover .hijo {
+    /* transform: translateX(100%);
+    background-color: red; */
+    /* forwars - para mantener el estado del hover */
+    /* podes poner la cantidad de veces o infinite */
+    /* podes alternar el movimiento, con alternate */
+    animation-play-state: paused; /* le decimos que pause cuando hacemos hover */
+}
+
+/* @keyframes traslacion {
+    0% {
+        background-color: brown;
+        transform: translateX(0%);
+    }
+
+    50% {
+        background-color: green;
+        transform: translateX(20%) translateY(50%);
+    }
+
+    100% {
+        background-color: yellow;
+        transform: translateX(100%);
+
+    }
+} */
+
+@keyframes traslacion {
+    0% {
+        transform: translateX(0%) translateY(0%);
+    }
+
+    25% {
+        transform: translateX(100%) translateY(0%);
+    }
+
+    50% {
+        transform: translateX(100%) translateY(100%);
+
+    }
+
+    75% {
+        transform: translateX(0%) translateY(100%);
+
+    }
+
+    100% {
+        transform: translateX(0%) translateY(0%);
+
+    }
+}

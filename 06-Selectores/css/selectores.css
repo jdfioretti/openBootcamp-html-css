@@ -1,0 +1,21 @@
+/* .p-contenedor {
+  color: green;
+}
+ */
+
+/* .contenedor p {
+  color: green;
+} */
+
+section.main .contenedor {
+  color: brown;
+}
+
+.contenedor #boton {
+  color: blue;
+  background-color: yellow;
+  border-radius: 5px;
+  border-color: blue;
+  border-collapse: collapse;
+  cursor: pointer;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Formularios</title>
+</head>
+
+<body>
+    <form action="resultados.html" method="GET">
+        <!-- Metodo GET si no hay un server, sino POST -->
+        <div>
+            <label for="nombreUsuario">Nombre de usuario</label>
+            <input type='text' name="nombreUsuario" id="nombreUsuario">
+        </div>
+        <br>
+        <div>
+            <label for="password">Contraseña</label>
+            <input type='password' name="password" id="password">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" min="0" max="120" step="5">
+        </div>
+        <br>
+        <div>
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento">
+        </div>
+        <br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+
+
+        <div>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios"></textarea> <!-- Agrega una entrada de texto mas grande -->
+        </div>
+
+    </form>
+
+
+</body>
+
+</html>

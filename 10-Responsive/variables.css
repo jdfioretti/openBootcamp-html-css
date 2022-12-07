@@ -1,0 +1,22 @@
+/* declaramos las variables */
+:root {
+    --color-principal: cyan;
+    --ancho-principal: 250px;
+}
+
+/* llamamos a la variable */
+.titulo {
+    color: var(--color-principal);
+}
+
+.footer {
+    color: var(--color-principal);
+}
+
+/* si cambiamos la var, cambian donde la llamamos */
+
+.contenedor {
+    background-color: pink;
+    padding: 1rem;
+    max-width: var(--ancho-principal);
+}

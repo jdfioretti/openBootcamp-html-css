@@ -1,0 +1,32 @@
+h1 {
+  color: red;
+}
+
+/* Estamos probando fuentes y colores */
+
+p {
+  color: blue;
+  font-size: 16pt;
+}
+
+h2 {
+  color: aqua;
+}
+
+#primera {
+  color: darkgreen;
+}
+
+.encabezado {
+  color: pink;
+  font-size: 24pt;
+  text-transform: uppercase;
+}
+
+* {
+    color: black;
+}
+
+*.warning {
+    color: chocolate;
+}

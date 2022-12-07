@@ -1,0 +1,111 @@
+html5test.com --> ver compatibilidad del browser
+
+Elementos:
+
+<tag></tag> siempre apertura y cierre
+<tag /> o auto cierre
+
+-----------------------------------------
+html base:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+-----------------------------------------
+
+IDE(integrate development enviroment) --> recomendado VS Code
+
+Extensiones instaladas.
+
+-----------------------------------------
+Etiquetas habituales:
+
+<div>
+<p>
+<span>
+<a> 
+<a href=''>
+<h1><h2><h3><h4><h5><h6>
+<ol>
+<ul>
+<li>
+<img>
+<img src='' alt='' id='' class=''>
+
+-----------------------------------------
+Formularios
+
+<form>
+<form action='' method=''>
+<label>
+<label for=''>
+<input>
+<input name='' id=''>
+<input required>
+<textarea>
+<textarea name='' id=''>
+
+-----------------------------------------
+
+<input type='text'>
+<input type='password'>
+<input type='number'>
+<input type='number' min='' max='' step=''>
+<input type='email'>
+<input tape='date' name='' id=''>
+
+-----------------------------------------
+Tablas
+
+ver tablas.html
+
+<table>
+<tr>
+<th>
+<td>
+
+-----------------------------------------
+Imagenes y multimedia
+
+<img src='' alt="" width="" height=""/>
+
+Videos
+<video> los mas comunes son webm-mp4-ogg --> los mas usados
+otro atributo --> ""autoplay" --> es peligroso, porque inicia la web reproduciendo
+seria conveniente agregar el atributo "muted"
+tenemos el "loop" para reproduccion continua
+
+-----------------------------------------
+
+Los formatos mas comunes son mp3-wav-ogg
+
+-----------------------------------------
+En todas las multimedias podemos usar medios externos, usando el link
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
