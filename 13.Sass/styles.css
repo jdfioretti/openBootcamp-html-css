@@ -1,0 +1,70 @@
+.btn, .btn-2 {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  color: #2b2b2b;
+}
+.btn:hover, .btn-2:hover {
+  background-color: cyan;
+  color: red;
+  cursor: pointer;
+}
+
+.btn-2 {
+  /* en vez de duplicar codigo podemos "extender" */
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+  /*  border: none;
+  padding: 0.25rem 0.5rem;
+  color: #2b2b2b;
+
+  &:hover {
+    background-color: cyan;
+    color: red;
+    cursor: pointer;
+  } */
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: azure;
+  min-height: 100vh;
+  padding: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+  /* podemos pasar parametros o no, y pasar por defecto tambien*/
+  width: 50rem;
+  color: grey;
+  text-transform: uppercase;
+  background-color: blue;
+}
+
+p {
+  /* podemos pasar parametros o no, y pasar por defecto tambien*/
+  width: 50rem;
+  color: grey;
+  text-transform: uppercase;
+  background-color: #ddd;
+}
+
+.listado {
+  /* ejemplo de anidacion en sass */
+  width: 10rem;
+  background-color: aquamarine;
+  padding: 0.5rem;
+}
+.listado ul {
+  margin: 0 0.5rem;
+}
+.listado ul li {
+  list-style: none;
+}
+.listado ul li:hover {
+  color: white;
+}/*# sourceMappingURL=styles.css.map */

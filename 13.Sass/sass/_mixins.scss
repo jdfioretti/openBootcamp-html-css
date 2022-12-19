@@ -1,0 +1,9 @@
+$text-color: grey;
+
+@mixin formato-texto($bg-color: blue) {
+  /* podemos pasar parametros o no, y pasar por defecto tambien*/
+  width: 50rem;
+  color: $text-color;
+  text-transform: uppercase;
+  background-color: $bg-color;
+}
